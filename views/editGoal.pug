@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1 Edit Goal
+
+  form(action=`/goals/${goal.id}/edit`, method="POST")
+    label(for="title") Goal Title:
+    input(type="text", name="title", required, value=goal.title)
+    button(type="submit") 💾 Save Changes
+
+  a(href="/goals") 🔙 Back to Goal List

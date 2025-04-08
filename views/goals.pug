@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1 Your Fitness Goals
+
+  ul
+    each goal in goals
+      li
+        | #{goal.title} 
+        a(href=`/goals/${goal.id}/edit`)  Edit
+        form(action=`/goals/${goal.id}/delete`, method="POST", style="display:inline")
+          button(type="submit")  Delete
+
+  a(href="/goals/create")  Add New Goal
+  br
+  a(href="/")  Back to Home
