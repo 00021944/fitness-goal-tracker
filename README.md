@@ -1,5 +1,5 @@
 # Fitness Goal Tracker
-
+# student id -00021944
 This web application was created to fulfill **Web Technology module’s** requirements and does not represent an actual company or service.
 
 
@@ -14,9 +14,13 @@ The application is built with **Node.js**, **Express.js**, and **Pug**.
 ---
 
 
+# GitHub Repository
 
-1. Clone the GitHub repository (link below)
-2. Install dependencies:
+This project is also hosted on GitHub:  
+🔗 https://github.com/00021944/fitness-goal-tracker
+
+
+
 
 ```bash
 npm install
